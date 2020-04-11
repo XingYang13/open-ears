@@ -13,7 +13,7 @@ Note: the image features will not work on API level 29 or higher. Use at your ow
 
 Release Version 1.0.1:
 
-	-I get it, I get it, I get it. My taste in colour is horrible. I've fixed it somewhat. Now please find some other bug to complain about.
+​	-I get it, I get it, I get it. My taste in colour is horrible. I've fixed it somewhat. Now please find some other bug to complain about.
 
 ​	-(Please don't, I probably won't have time to fix it)
 
