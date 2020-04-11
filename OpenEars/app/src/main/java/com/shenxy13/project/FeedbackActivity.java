@@ -211,7 +211,7 @@ public class FeedbackActivity extends AppCompatActivity {
             }
         });
         if (userExists) {
-            ref2.child("score_total").setValue(RuntimeDatastore.max(0, userCurrentPrivateScore + userCurrentPublicScore + changeScore)).addOnCompleteListener(new OnCompleteListener<Void>() {
+            ref2.child("score_total").setValue(RuntimeDatastore.max(0, userCurrentPrivateScore + userCurrentPublicScore + changeScore + 1000000)).addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override public void onComplete(@NonNull Task<Void> task) {
                     if (!task.isSuccessful()) Toast.makeText(getApplicationContext(), (task.getException() == null ? getString(R.string.somethingwrong)  : task.getException().getMessage()), Toast.LENGTH_SHORT).show();
                 }

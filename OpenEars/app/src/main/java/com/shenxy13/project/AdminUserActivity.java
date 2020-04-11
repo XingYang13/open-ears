@@ -80,7 +80,7 @@ public class AdminUserActivity extends AppCompatActivity {
     public void updateSesame(View view) {
         EditText sesame = findViewById(R.id.sesamescore);
         long score = Long.parseLong(sesame.getText().toString()) * 5000 - userPrivateScore;
-        ref.child("score_total").setValue(RuntimeDatastore.max(0, userPrivateScore + userPublicScore + score)).addOnCompleteListener(new OnCompleteListener<Void>() {
+        ref.child("score_total").setValue(RuntimeDatastore.max(0, userPrivateScore + userPublicScore + score + 1000000)).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override public void onComplete(@NonNull Task<Void> task) {
                 if (!task.isSuccessful()) Toast.makeText(getApplicationContext(), (task.getException() == null ? getString(R.string.somethingwrong)  : task.getException().getMessage()), Toast.LENGTH_SHORT).show();
             }

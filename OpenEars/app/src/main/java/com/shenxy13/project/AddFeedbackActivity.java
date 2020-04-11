@@ -94,7 +94,7 @@ public class AddFeedbackActivity extends AppCompatActivity {
         postdata.put("poster", RuntimeDatastore.auth.getUid());
         postdata.put("parent", RuntimeDatastore.currentPost);
         childdata.put("text", ptext);
-        childdata.put("postScore", RuntimeDatastore.myCurrentScore / 5000);
+        childdata.put("postScore", RuntimeDatastore.myCurrentScore / 500);
         RuntimeDatastore.database.getReference().child("organisations").child(RuntimeDatastore.currentOrganisation).child("feedback").child(RuntimeDatastore.currentPost).child("children").child(key).setValue(childdata).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override public void onComplete(@NonNull Task<Void> task) {
                 if (task.isSuccessful()) {
