@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "760525888460",
+    "firebase_url": "https://open-ears-955a8.firebaseio.com",
+    "project_id": "open-ears-955a8",
+    "storage_bucket": "open-ears-955a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760525888460:android:54606b6916dd98fe385b69",
+        "android_client_info": {
+          "package_name": "com.shenxy13.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760525888460-iga71955r68jjgtfq4rhh0dus6rlb4ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7QLPqpCewPhj1UFBQOjZ6cuF50zJMKVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760525888460-iga71955r68jjgtfq4rhh0dus6rlb4ck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
