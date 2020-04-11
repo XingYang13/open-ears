@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorBackground">#00504A</color>
-    <color name="colorText">#55FFCC</color>
+    <color name="colorText">#FFFFFF</color>
     <color name="colorAppBar">#08A500</color>
-    <color name="colorButtons">#55CCFF</color>
+    <color name="colorButtons">#FFFFAA</color>
 </resources>
