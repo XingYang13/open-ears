@@ -11,6 +11,16 @@ Note: the image features will not work on API level 29 or higher. Use at your ow
 
 
 
+Release Version 1.0.3:
+
+​	-I am an idiot who cannot code: electric boogaloo
+
+​	-Patched bug in adding user feature: adding a user to the group now gives them a generated displayName of their UID (as was intended), rather than the UID of the person who added them
+
+​	-Kidnapped your family
+
+
+
 Release Version 1.0.2:
 
 ​	-I am an idiot who cannot code

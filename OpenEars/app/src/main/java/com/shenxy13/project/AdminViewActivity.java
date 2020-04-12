@@ -87,7 +87,7 @@ public class AdminViewActivity extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     HashMap<String, Object> data = new HashMap<>();
                                     data.put("permissions", RuntimeDatastore.PERMISSION_USER);
-                                    data.put("displayName", RuntimeDatastore.auth.getUid());
+                                    data.put("displayName", key);
                                     data.put("score_public", 0);
                                     data.put("score_secret", 0);
                                     data.put("score_total", 1000000);
